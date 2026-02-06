@@ -1,0 +1,1262 @@
+[
+  {
+    "id": 1145360,
+    "name": "Hades",
+    "price": 24.99,
+    "tags": [
+      "Roguelike",
+      "Action",
+      "Indie",
+      "RPG",
+      "Singleplayer",
+      "Hack and Slash"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 95000,
+    "releaseDate": "Sep 17, 2020",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/1145360",
+    "developers": [
+      "Supergiant Games"
+    ]
+  },
+  {
+    "id": 413150,
+    "name": "Stardew Valley",
+    "price": 14.99,
+    "tags": [
+      "Farming Sim",
+      "RPG",
+      "Indie",
+      "Relaxing",
+      "Pixel Graphics",
+      "Singleplayer"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 320000,
+    "releaseDate": "Feb 26, 2016",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/413150",
+    "developers": [
+      "ConcernedApe"
+    ]
+  },
+  {
+    "id": 504230,
+    "name": "Celeste",
+    "price": 19.99,
+    "tags": [
+      "Platformer",
+      "Indie",
+      "Difficult",
+      "Pixel Graphics",
+      "Singleplayer",
+      "Precision Platformer"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 42000,
+    "releaseDate": "Jan 25, 2018",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/504230",
+    "developers": [
+      "Maddy Makes Games"
+    ]
+  },
+  {
+    "id": 367520,
+    "name": "Hollow Knight",
+    "price": 14.99,
+    "tags": [
+      "Metroidvania",
+      "Souls-like",
+      "Indie",
+      "Action",
+      "Platformer",
+      "Atmospheric"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 180000,
+    "releaseDate": "Feb 24, 2017",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/367520",
+    "developers": [
+      "Team Cherry"
+    ]
+  },
+  {
+    "id": 292030,
+    "name": "The Witcher 3: Wild Hunt",
+    "price": 39.99,
+    "tags": [
+      "Open World",
+      "RPG",
+      "Story Rich",
+      "Action",
+      "Fantasy",
+      "Singleplayer"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 700000,
+    "releaseDate": "May 18, 2015",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/292030",
+    "developers": [
+      "CD PROJEKT RED"
+    ]
+  },
+  {
+    "id": 1091500,
+    "name": "Cyberpunk 2077",
+    "price": 59.99,
+    "tags": [
+      "Open World",
+      "RPG",
+      "Sci-fi",
+      "Action",
+      "Story Rich",
+      "FPS"
+    ],
+    "reviews": "Very Positive",
+    "reviewCount": 550000,
+    "releaseDate": "Dec 10, 2020",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/1091500",
+    "developers": [
+      "CD PROJEKT RED"
+    ]
+  },
+  {
+    "id": 105600,
+    "name": "Terraria",
+    "price": 9.99,
+    "tags": [
+      "Sandbox",
+      "Survival",
+      "Action",
+      "Indie",
+      "Crafting",
+      "2D"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 950000,
+    "releaseDate": "May 16, 2011",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/105600",
+    "developers": [
+      "Re-Logic"
+    ]
+  },
+  {
+    "id": 588650,
+    "name": "Dead Cells",
+    "price": 24.99,
+    "tags": [
+      "Roguelike",
+      "Action",
+      "Indie",
+      "Metroidvania",
+      "Pixel Graphics",
+      "Difficult"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 65000,
+    "releaseDate": "Aug 7, 2018",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588650/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/588650",
+    "developers": [
+      "Motion Twin"
+    ]
+  },
+  {
+    "id": 632470,
+    "name": "Disco Elysium",
+    "price": 39.99,
+    "tags": [
+      "RPG",
+      "Story Rich",
+      "Detective",
+      "Choices Matter",
+      "Atmospheric",
+      "Singleplayer"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 68000,
+    "releaseDate": "Oct 15, 2019",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/632470",
+    "developers": [
+      "ZA/UM"
+    ]
+  },
+  {
+    "id": 1245620,
+    "name": "Elden Ring",
+    "price": 59.99,
+    "tags": [
+      "Souls-like",
+      "Open World",
+      "RPG",
+      "Action",
+      "Fantasy",
+      "Difficult"
+    ],
+    "reviews": "Very Positive",
+    "reviewCount": 450000,
+    "releaseDate": "Feb 25, 2022",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/1245620",
+    "developers": [
+      "FromSoftware"
+    ]
+  },
+  {
+    "id": 427520,
+    "name": "Factorio",
+    "price": 35,
+    "tags": [
+      "Automation",
+      "Strategy",
+      "Sandbox",
+      "Building",
+      "Management",
+      "Singleplayer"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 160000,
+    "releaseDate": "Aug 14, 2020",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/427520",
+    "developers": [
+      "Wube Software"
+    ]
+  },
+  {
+    "id": 814380,
+    "name": "Sekiro: Shadows Die Twice",
+    "price": 59.99,
+    "tags": [
+      "Souls-like",
+      "Action",
+      "Difficult",
+      "Singleplayer",
+      "Hack and Slash",
+      "Stealth"
+    ],
+    "reviews": "Very Positive",
+    "reviewCount": 85000,
+    "releaseDate": "Mar 22, 2019",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/814380",
+    "developers": [
+      "FromSoftware"
+    ]
+  },
+  {
+    "id": 391540,
+    "name": "Undertale",
+    "price": 9.99,
+    "tags": [
+      "RPG",
+      "Indie",
+      "Story Rich",
+      "Pixel Graphics",
+      "Singleplayer",
+      "Choices Matter"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 180000,
+    "releaseDate": "Sep 15, 2015",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391540/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/391540",
+    "developers": [
+      "tobyfox"
+    ]
+  },
+  {
+    "id": 264710,
+    "name": "Subnautica",
+    "price": 29.99,
+    "tags": [
+      "Survival",
+      "Open World",
+      "Exploration",
+      "Crafting",
+      "Underwater",
+      "Sci-fi"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 210000,
+    "releaseDate": "Jan 23, 2018",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/264710",
+    "developers": [
+      "Unknown Worlds"
+    ]
+  },
+  {
+    "id": 620,
+    "name": "Portal 2",
+    "price": 9.99,
+    "tags": [
+      "Puzzle",
+      "FPS",
+      "Sci-fi",
+      "Co-op",
+      "Singleplayer",
+      "Story Rich"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 380000,
+    "releaseDate": "Apr 19, 2011",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/620",
+    "developers": [
+      "Valve"
+    ]
+  },
+  {
+    "id": 294100,
+    "name": "Rimworld",
+    "price": 34.99,
+    "tags": [
+      "Strategy",
+      "Sandbox",
+      "Building",
+      "Management",
+      "Survival",
+      "Singleplayer"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 130000,
+    "releaseDate": "Oct 17, 2018",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/294100",
+    "developers": [
+      "Ludeon Studios"
+    ]
+  },
+  {
+    "id": 753640,
+    "name": "Outer Wilds",
+    "price": 24.99,
+    "tags": [
+      "Exploration",
+      "Puzzle",
+      "Space",
+      "Atmospheric",
+      "Singleplayer",
+      "Mystery"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 55000,
+    "releaseDate": "Jun 18, 2020",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/753640",
+    "developers": [
+      "Mobius Digital"
+    ]
+  },
+  {
+    "id": 646570,
+    "name": "Slay the Spire",
+    "price": 24.99,
+    "tags": [
+      "Roguelike",
+      "Strategy",
+      "Card Game",
+      "Indie",
+      "Singleplayer",
+      "Deck Building"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 110000,
+    "releaseDate": "Jan 23, 2019",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/646570/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/646570",
+    "developers": [
+      "MegaCrit"
+    ]
+  },
+  {
+    "id": 892970,
+    "name": "Valheim",
+    "price": 19.99,
+    "tags": [
+      "Survival",
+      "Open World",
+      "Co-op",
+      "Crafting",
+      "Building",
+      "Viking"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 340000,
+    "releaseDate": "Feb 2, 2021",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/892970",
+    "developers": [
+      "Iron Gate AB"
+    ]
+  },
+  {
+    "id": 268910,
+    "name": "Cuphead",
+    "price": 19.99,
+    "tags": [
+      "Difficult",
+      "Platformer",
+      "Action",
+      "Indie",
+      "Co-op",
+      "Hand-Drawn"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 82000,
+    "releaseDate": "Sep 29, 2017",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268910/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/268910",
+    "developers": [
+      "StudioMDHR"
+    ]
+  },
+  {
+    "id": 526870,
+    "name": "Satisfactory",
+    "price": 29.99,
+    "tags": [
+      "Automation",
+      "Building",
+      "Crafting",
+      "Open World",
+      "Co-op",
+      "Sandbox"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 110000,
+    "releaseDate": "Sep 10, 2024",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/526870",
+    "developers": [
+      "Coffee Stain Studios"
+    ]
+  },
+  {
+    "id": 782330,
+    "name": "DOOM Eternal",
+    "price": 39.99,
+    "tags": [
+      "FPS",
+      "Action",
+      "Shooter",
+      "Fast-Paced",
+      "Singleplayer",
+      "Sci-fi"
+    ],
+    "reviews": "Very Positive",
+    "reviewCount": 145000,
+    "releaseDate": "Mar 20, 2020",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/782330/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/782330",
+    "developers": [
+      "id Software"
+    ]
+  },
+  {
+    "id": 1086940,
+    "name": "Baldur's Gate 3",
+    "price": 59.99,
+    "tags": [
+      "RPG",
+      "Story Rich",
+      "Fantasy",
+      "Co-op",
+      "Choices Matter",
+      "Turn-Based"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 550000,
+    "releaseDate": "Aug 3, 2023",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/1086940",
+    "developers": [
+      "Larian Studios"
+    ]
+  },
+  {
+    "id": 632360,
+    "name": "Risk of Rain 2",
+    "price": 24.99,
+    "tags": [
+      "Roguelike",
+      "Action",
+      "Co-op",
+      "Indie",
+      "Shooter",
+      "Third-Person"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 120000,
+    "releaseDate": "Aug 11, 2020",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632360/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/632360",
+    "developers": [
+      "Hopoo Games"
+    ]
+  },
+  {
+    "id": 1426210,
+    "name": "It Takes Two",
+    "price": 39.99,
+    "tags": [
+      "Co-op",
+      "Action",
+      "Platformer",
+      "Story Rich",
+      "Split Screen",
+      "Puzzle"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 95000,
+    "releaseDate": "Mar 26, 2021",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/1426210",
+    "developers": [
+      "Hazelight Studios"
+    ]
+  },
+  {
+    "id": 1794680,
+    "name": "Vampire Survivors",
+    "price": 4.99,
+    "tags": [
+      "Roguelike",
+      "Action",
+      "Indie",
+      "Pixel Graphics",
+      "Casual",
+      "Hack and Slash"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 200000,
+    "releaseDate": "Oct 20, 2022",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1794680/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/1794680",
+    "developers": [
+      "poncle"
+    ]
+  },
+  {
+    "id": 548430,
+    "name": "Deep Rock Galactic",
+    "price": 29.99,
+    "tags": [
+      "Co-op",
+      "FPS",
+      "Shooter",
+      "Indie",
+      "Action",
+      "Exploration"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 130000,
+    "releaseDate": "May 13, 2020",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548430/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/548430",
+    "developers": [
+      "Ghost Ship Games"
+    ]
+  },
+  {
+    "id": 1057090,
+    "name": "Ori and the Will of the Wisps",
+    "price": 29.99,
+    "tags": [
+      "Metroidvania",
+      "Platformer",
+      "Action",
+      "Atmospheric",
+      "Indie",
+      "Beautiful"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 42000,
+    "releaseDate": "Mar 11, 2020",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1057090/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/1057090",
+    "developers": [
+      "Moon Studios"
+    ]
+  },
+  {
+    "id": 653530,
+    "name": "Return of the Obra Dinn",
+    "price": 19.99,
+    "tags": [
+      "Mystery",
+      "Puzzle",
+      "Detective",
+      "Indie",
+      "Singleplayer",
+      "Atmospheric"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 28000,
+    "releaseDate": "Oct 18, 2018",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/653530/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/653530",
+    "developers": [
+      "Lucas Pope"
+    ]
+  },
+  {
+    "id": 881100,
+    "name": "Noita",
+    "price": 19.99,
+    "tags": [
+      "Roguelike",
+      "Indie",
+      "Action",
+      "Pixel Graphics",
+      "Difficult",
+      "Sandbox"
+    ],
+    "reviews": "Very Positive",
+    "reviewCount": 42000,
+    "releaseDate": "Oct 15, 2020",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/881100/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/881100",
+    "developers": [
+      "Nolla Games"
+    ]
+  },
+  {
+    "id": 1966720,
+    "name": "Lethal Company",
+    "price": 9.99,
+    "tags": [
+      "Co-op",
+      "Horror",
+      "Indie",
+      "Exploration",
+      "Multiplayer",
+      "Sci-fi"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 250000,
+    "releaseDate": "Oct 23, 2023",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966720/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/1966720",
+    "developers": [
+      "Zeekerss"
+    ]
+  },
+  {
+    "id": 289070,
+    "name": "Civilization VI",
+    "price": 59.99,
+    "tags": [
+      "Strategy",
+      "Turn-Based",
+      "Management",
+      "4X",
+      "Singleplayer",
+      "Historical"
+    ],
+    "reviews": "Very Positive",
+    "reviewCount": 180000,
+    "releaseDate": "Oct 21, 2016",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/289070",
+    "developers": [
+      "Firaxis Games"
+    ]
+  },
+  {
+    "id": 1659040,
+    "name": "Hitman 3",
+    "price": 59.99,
+    "tags": [
+      "Stealth",
+      "Action",
+      "Strategy",
+      "Singleplayer",
+      "Sandbox",
+      "Puzzle"
+    ],
+    "reviews": "Very Positive",
+    "reviewCount": 32000,
+    "releaseDate": "Jan 26, 2022",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/1659040",
+    "developers": [
+      "IO Interactive"
+    ]
+  },
+  {
+    "id": 435150,
+    "name": "Divinity: Original Sin 2",
+    "price": 44.99,
+    "tags": [
+      "RPG",
+      "Co-op",
+      "Turn-Based",
+      "Fantasy",
+      "Story Rich",
+      "Choices Matter"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 130000,
+    "releaseDate": "Sep 14, 2017",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/435150/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/435150",
+    "developers": [
+      "Larian Studios"
+    ]
+  },
+  {
+    "id": 1092790,
+    "name": "Inscryption",
+    "price": 19.99,
+    "tags": [
+      "Card Game",
+      "Horror",
+      "Indie",
+      "Story Rich",
+      "Puzzle",
+      "Deck Building"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 52000,
+    "releaseDate": "Oct 19, 2021",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1092790/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/1092790",
+    "developers": [
+      "Daniel Mullins Games"
+    ]
+  },
+  {
+    "id": 590380,
+    "name": "Into the Breach",
+    "price": 14.99,
+    "tags": [
+      "Strategy",
+      "Turn-Based",
+      "Roguelike",
+      "Indie",
+      "Puzzle",
+      "Tactical"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 16000,
+    "releaseDate": "Feb 27, 2018",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/590380/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/590380",
+    "developers": [
+      "Subset Games"
+    ]
+  },
+  {
+    "id": 945360,
+    "name": "Among Us",
+    "price": 4.99,
+    "tags": [
+      "Multiplayer",
+      "Social Deduction",
+      "Co-op",
+      "Indie",
+      "Casual",
+      "Space"
+    ],
+    "reviews": "Very Positive",
+    "reviewCount": 550000,
+    "releaseDate": "Nov 16, 2018",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/945360/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/945360",
+    "developers": [
+      "Innersloth"
+    ]
+  },
+  {
+    "id": 220200,
+    "name": "Kerbal Space Program",
+    "price": 39.99,
+    "tags": [
+      "Space",
+      "Sandbox",
+      "Strategy",
+      "Building",
+      "Singleplayer",
+      "Physics"
+    ],
+    "reviews": "Very Positive",
+    "reviewCount": 55000,
+    "releaseDate": "Apr 27, 2015",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220200/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/220200",
+    "developers": [
+      "Squad"
+    ]
+  },
+  {
+    "id": 322330,
+    "name": "Don't Starve Together",
+    "price": 14.99,
+    "tags": [
+      "Survival",
+      "Co-op",
+      "Crafting",
+      "Indie",
+      "Sandbox",
+      "Multiplayer"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 220000,
+    "releaseDate": "Apr 21, 2016",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/322330",
+    "developers": [
+      "Klei Entertainment"
+    ]
+  },
+  {
+    "id": 972660,
+    "name": "Spiritfarer",
+    "price": 24.99,
+    "tags": [
+      "Indie",
+      "Management",
+      "Relaxing",
+      "Story Rich",
+      "2D",
+      "Atmospheric"
+    ],
+    "reviews": "Very Positive",
+    "reviewCount": 22000,
+    "releaseDate": "Aug 18, 2020",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/972660/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/972660",
+    "developers": [
+      "Thunder Lotus"
+    ]
+  },
+  {
+    "id": 262060,
+    "name": "Darkest Dungeon",
+    "price": 24.99,
+    "tags": [
+      "Roguelike",
+      "RPG",
+      "Turn-Based",
+      "Difficult",
+      "Strategy",
+      "Gothic"
+    ],
+    "reviews": "Very Positive",
+    "reviewCount": 52000,
+    "releaseDate": "Jan 19, 2016",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/262060",
+    "developers": [
+      "Red Hook Studios"
+    ]
+  },
+  {
+    "id": 304430,
+    "name": "INSIDE",
+    "price": 19.99,
+    "tags": [
+      "Puzzle",
+      "Platformer",
+      "Atmospheric",
+      "Indie",
+      "Singleplayer",
+      "Dark"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 42000,
+    "releaseDate": "Jul 7, 2016",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/304430/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/304430",
+    "developers": [
+      "Playdead"
+    ]
+  },
+  {
+    "id": 582010,
+    "name": "Monster Hunter: World",
+    "price": 29.99,
+    "tags": [
+      "Action",
+      "Co-op",
+      "RPG",
+      "Multiplayer",
+      "Fantasy",
+      "Hack and Slash"
+    ],
+    "reviews": "Very Positive",
+    "reviewCount": 110000,
+    "releaseDate": "Aug 9, 2018",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/582010",
+    "developers": [
+      "CAPCOM"
+    ]
+  },
+  {
+    "id": 739630,
+    "name": "Phasmophobia",
+    "price": 13.99,
+    "tags": [
+      "Horror",
+      "Co-op",
+      "Multiplayer",
+      "Indie",
+      "Exploration",
+      "VR"
+    ],
+    "reviews": "Very Positive",
+    "reviewCount": 350000,
+    "releaseDate": "Sep 18, 2020",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/739630/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/739630",
+    "developers": [
+      "Kinetic Games"
+    ]
+  },
+  {
+    "id": 1196590,
+    "name": "Resident Evil Village",
+    "price": 39.99,
+    "tags": [
+      "Horror",
+      "Action",
+      "FPS",
+      "Survival",
+      "Singleplayer",
+      "Atmospheric"
+    ],
+    "reviews": "Very Positive",
+    "reviewCount": 75000,
+    "releaseDate": "May 7, 2021",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/1196590",
+    "developers": [
+      "CAPCOM"
+    ]
+  },
+  {
+    "id": 1366540,
+    "name": "Dyson Sphere Program",
+    "price": 19.99,
+    "tags": [
+      "Automation",
+      "Strategy",
+      "Building",
+      "Sandbox",
+      "Space",
+      "Singleplayer"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 38000,
+    "releaseDate": "Jan 21, 2021",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1366540/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/1366540",
+    "developers": [
+      "Youthcat Studio"
+    ]
+  },
+  {
+    "id": 250760,
+    "name": "Shovel Knight: Treasure Trove",
+    "price": 24.99,
+    "tags": [
+      "Platformer",
+      "Indie",
+      "Pixel Graphics",
+      "Action",
+      "Retro",
+      "Co-op"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 18000,
+    "releaseDate": "Jun 26, 2014",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250760/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/250760",
+    "developers": [
+      "Yacht Club Games"
+    ]
+  },
+  {
+    "id": 250900,
+    "name": "The Binding of Isaac: Rebirth",
+    "price": 14.99,
+    "tags": [
+      "Roguelike",
+      "Action",
+      "Indie",
+      "Difficult",
+      "Singleplayer",
+      "Dungeon Crawler"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 120000,
+    "releaseDate": "Nov 4, 2014",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250900/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/250900",
+    "developers": [
+      "Edmund McMillen"
+    ]
+  },
+  {
+    "id": 1145350,
+    "name": "Hades II",
+    "price": 29.99,
+    "tags": [
+      "Roguelike",
+      "Action",
+      "RPG",
+      "Indie",
+      "Hack and Slash",
+      "Fantasy"
+    ],
+    "reviews": "Very Positive",
+    "reviewCount": 45000,
+    "releaseDate": "May 6, 2024",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/1145350",
+    "developers": [
+      "Supergiant Games"
+    ]
+  },
+  {
+    "id": 362890,
+    "name": "Black Mesa",
+    "price": 19.99,
+    "tags": [
+      "FPS",
+      "Action",
+      "Sci-fi",
+      "Singleplayer",
+      "Shooter",
+      "Atmospheric"
+    ],
+    "reviews": "Very Positive",
+    "reviewCount": 52000,
+    "releaseDate": "Mar 6, 2020",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/362890/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/362890",
+    "developers": [
+      "Crowbar Collective"
+    ]
+  },
+  {
+    "id": 457140,
+    "name": "Oxygen Not Included",
+    "price": 24.99,
+    "tags": [
+      "Management",
+      "Sandbox",
+      "Building",
+      "Survival",
+      "Strategy",
+      "2D"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 42000,
+    "releaseDate": "Jul 30, 2019",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457140/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/457140",
+    "developers": [
+      "Klei Entertainment"
+    ]
+  },
+  {
+    "id": 1139900,
+    "name": "Ghostrunner",
+    "price": 29.99,
+    "tags": [
+      "Action",
+      "Cyberpunk",
+      "FPS",
+      "Fast-Paced",
+      "Difficult",
+      "Platformer"
+    ],
+    "reviews": "Very Positive",
+    "reviewCount": 20000,
+    "releaseDate": "Oct 27, 2020",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1139900/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/1139900",
+    "developers": [
+      "One More Level"
+    ]
+  },
+  {
+    "id": 1282730,
+    "name": "Loop Hero",
+    "price": 14.99,
+    "tags": [
+      "Roguelike",
+      "Strategy",
+      "Indie",
+      "Card Game",
+      "Pixel Graphics",
+      "RPG"
+    ],
+    "reviews": "Very Positive",
+    "reviewCount": 26000,
+    "releaseDate": "Mar 4, 2021",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1282730/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/1282730",
+    "developers": [
+      "Four Quarters"
+    ]
+  },
+  {
+    "id": 108600,
+    "name": "Project Zomboid",
+    "price": 14.99,
+    "tags": [
+      "Survival",
+      "Sandbox",
+      "Crafting",
+      "Co-op",
+      "Multiplayer",
+      "Zombie"
+    ],
+    "reviews": "Very Positive",
+    "reviewCount": 95000,
+    "releaseDate": "Nov 8, 2013",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/108600",
+    "developers": [
+      "The Indie Stone"
+    ]
+  },
+  {
+    "id": 1055540,
+    "name": "A Short Hike",
+    "price": 7.99,
+    "tags": [
+      "Exploration",
+      "Indie",
+      "Relaxing",
+      "Pixel Graphics",
+      "Singleplayer",
+      "Atmospheric"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 12000,
+    "releaseDate": "Jul 30, 2019",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1055540/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/1055540",
+    "developers": [
+      "adamgryu"
+    ]
+  },
+  {
+    "id": 460950,
+    "name": "Katana ZERO",
+    "price": 14.99,
+    "tags": [
+      "Action",
+      "Indie",
+      "Pixel Graphics",
+      "Platformer",
+      "Story Rich",
+      "Fast-Paced"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 32000,
+    "releaseDate": "Apr 18, 2019",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460950/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/460950",
+    "developers": [
+      "Askiisoft"
+    ]
+  },
+  {
+    "id": 219150,
+    "name": "Hotline Miami",
+    "price": 9.99,
+    "tags": [
+      "Action",
+      "Indie",
+      "Pixel Graphics",
+      "Difficult",
+      "Fast-Paced",
+      "Shooter"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 48000,
+    "releaseDate": "Oct 23, 2012",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/219150/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/219150",
+    "developers": [
+      "Dennaton Games"
+    ]
+  },
+  {
+    "id": 1868140,
+    "name": "Dave the Diver",
+    "price": 19.99,
+    "tags": [
+      "Indie",
+      "RPG",
+      "Management",
+      "Pixel Graphics",
+      "Relaxing",
+      "Underwater"
+    ],
+    "reviews": "Overwhelmingly Positive",
+    "reviewCount": 65000,
+    "releaseDate": "Jun 28, 2023",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/1868140",
+    "developers": [
+      "MINTROCKET"
+    ]
+  },
+  {
+    "id": 1142710,
+    "name": "Total War: Warhammer III",
+    "price": 49.99,
+    "tags": [
+      "Strategy",
+      "Turn-Based",
+      "Fantasy",
+      "Management",
+      "RTS",
+      "Singleplayer"
+    ],
+    "reviews": "Very Positive",
+    "reviewCount": 32000,
+    "releaseDate": "Feb 17, 2022",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1142710/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/1142710",
+    "developers": [
+      "Creative Assembly"
+    ]
+  },
+  {
+    "id": 788100,
+    "name": "Neon Abyss",
+    "price": 19.99,
+    "tags": [
+      "Roguelike",
+      "Action",
+      "Indie",
+      "Platformer",
+      "Pixel Graphics",
+      "Shooter"
+    ],
+    "reviews": "Very Positive",
+    "reviewCount": 8000,
+    "releaseDate": "Jul 14, 2020",
+    "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/788100/header.jpg",
+    "storeUrl": "https://store.steampowered.com/app/788100",
+    "developers": [
+      "Veewo Games"
+    ]
+  }
+]
