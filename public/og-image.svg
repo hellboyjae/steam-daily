@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0e1419"/>
+      <stop offset="100%" style="stop-color:#1b2838"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#66c0f4"/>
+      <stop offset="100%" style="stop-color:#4a9fd4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="580" width="1200" height="50" fill="#66c0f4" opacity="0.15"/>
+  <rect x="0" y="0" width="1200" height="4" fill="url(#accent)"/>
+  <!-- Steam-style logo circle -->
+  <circle cx="600" cy="200" r="60" fill="none" stroke="#66c0f4" stroke-width="3" opacity="0.3"/>
+  <text x="600" y="220" text-anchor="middle" font-family="sans-serif" font-size="60" fill="#66c0f4">🎮</text>
+  <!-- Title -->
+  <text x="600" y="330" text-anchor="middle" font-family="sans-serif" font-weight="800" font-size="72" fill="#ffffff" letter-spacing="4">STEAM DAILY</text>
+  <!-- Subtitle -->
+  <text x="600" y="390" text-anchor="middle" font-family="sans-serif" font-weight="500" font-size="28" fill="#8f98a0">Daily puzzle game for Steam fans</text>
+  <!-- Game pills -->
+  <rect x="270" y="430" width="180" height="44" rx="4" fill="#66c0f4" opacity="0.15" stroke="#66c0f4" stroke-opacity="0.3"/>
+  <text x="360" y="458" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="16" fill="#66c0f4">💰 Price Check</text>
+  <rect x="510" y="430" width="180" height="44" rx="4" fill="#5ba32b" opacity="0.15" stroke="#5ba32b" stroke-opacity="0.3"/>
+  <text x="600" y="458" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="16" fill="#5ba32b">🏷️ Tag Hunt</text>
+  <rect x="750" y="430" width="180" height="44" rx="4" fill="#e5a91a" opacity="0.15" stroke="#e5a91a" stroke-opacity="0.3"/>
+  <text x="840" y="458" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="16" fill="#e5a91a">🔗 Connections</text>
+  <!-- Bottom text -->
+  <text x="600" y="610" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#4a6075">New puzzles daily · Top 2,000 Steam games · Free to play</text>
+</svg>
