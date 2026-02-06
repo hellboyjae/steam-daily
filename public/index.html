@@ -382,7 +382,10 @@
         <span class="logo-text">STEAM DAILY</span>
       </div>
       <div class="date-line" id="dateLine">Loading...</div>
-      <button id="backToDaily" class="btn btn-ghost hidden" onclick="loadPuzzle()" style="margin-bottom:10px; font-size:10px; padding:5px 12px;">⭐ Back to Daily Puzzle</button>
+      <div id="headerButtons" style="display:flex; gap:6px; justify-content:center; margin-bottom:10px;">
+        <button id="randomBtn" class="btn btn-ghost" onclick="loadRandomPuzzle()" style="font-size:10px; padding:5px 12px;">🎲 Random Puzzle</button>
+        <button id="backToDaily" class="btn btn-ghost hidden" onclick="loadPuzzle()" style="font-size:10px; padding:5px 12px;">⭐ Back to Daily</button>
+      </div>
       <nav class="tabs" id="tabs">
         <button class="tab-btn active" data-tab="price">💰 Price Check</button>
         <button class="tab-btn" data-tab="tags">🏷️ Tag Hunt</button>
@@ -563,8 +566,8 @@
       } else {
         dateLine.innerHTML = `<span style="color:var(--s-yellow);">⭐ Daily Puzzle</span> #${puzzleData.puzzleNumber} · ${formatDate(puzzleData.date)}`;
       }
-      // Show/hide daily button
       document.getElementById('backToDaily').classList.toggle('hidden', !isRandomMode);
+      document.getElementById('randomBtn').classList.toggle('hidden', isRandomMode);
     }
 
     function formatDate(dateStr) {
