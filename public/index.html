@@ -3,9 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Steam Daily — Daily Steam Puzzle Game</title>
-  <meta name="description" content="A daily puzzle game for Steam enthusiasts. Guess game prices, hunt store tags, and solve connections — new puzzles every day.">
+  <title>Steam Daily — A Wordle-like Daily Puzzle Game for Steam Fans</title>
+  <meta name="description" content="A free Wordle-like daily puzzle game for Steam fans. Guess game prices, hunt store tags, and solve connections from the top 2,000 Steam games. Like Wordle but for Steam — new puzzles every day, plus unlimited random replays.">
+  <meta name="keywords" content="Steam Wordle, Wordle-like daily Steam puzzle, Steam puzzle game, daily puzzle game, Steam games quiz, Steam price guessing game, gaming trivia, Steam tags, connections game, Steam daily challenge, Steam trivia game, guess the Steam game price, Steam game quiz, free daily puzzle, Steam connections, Wordle for gamers, Steam guessing game, video game puzzle, PC gaming quiz, Steam store quiz">
   <meta name="theme-color" content="#171a21">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://steamdaily.xyz">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Steam Daily — Daily Steam Puzzle Game">
+  <meta property="og:description" content="Guess game prices, hunt store tags, and solve connections. A free daily puzzle game for Steam fans with unlimited replays.">
+  <meta property="og:url" content="https://steamdaily.xyz">
+  <meta property="og:site_name" content="Steam Daily">
+  <meta property="og:image" content="https://steamdaily.xyz/og-image.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Steam Daily — Daily Steam Puzzle Game">
+  <meta name="twitter:description" content="Guess game prices, hunt store tags, and solve connections. New puzzles every day!">
+  <meta name="twitter:image" content="https://steamdaily.xyz/og-image.svg">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Steam Daily",
+    "url": "https://steamdaily.xyz",
+    "description": "A free daily puzzle game for Steam fans. Guess game prices, hunt store tags, and solve connections from the top 2,000 Steam games.",
+    "applicationCategory": "Game",
+    "operatingSystem": "Any",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "genre": "Puzzle",
+    "inLanguage": "en"
+  }
+  </script>
+
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎮</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
@@ -419,6 +459,24 @@
       <div id="pricePanel" class="hidden"></div>
       <div id="tagsPanel" class="hidden"></div>
       <div id="connectionsPanel" class="hidden"></div>
+
+      <!-- SEO content for search engines (hidden when JS runs) -->
+      <noscript>
+        <article style="padding:20px; color:#c6d4df;">
+          <h1>Steam Daily — Free Daily Puzzle Game for Steam Fans</h1>
+          <p>Steam Daily is a free daily puzzle game inspired by Wordle, built for Steam gaming enthusiasts. Test your knowledge of the top 2,000 Steam games with three unique minigames every day.</p>
+          <h2>How to Play</h2>
+          <h3>💰 Price Check</h3>
+          <p>Can you guess the Steam store price of a game? You get 5 tries with hot/cold feedback after each guess. Watch the trailer and check the reviews for clues.</p>
+          <h3>🏷️ Tag Hunt</h3>
+          <p>Given a Steam store tag, name 5 games that have that tag. How well do you know which games share tags like "Open World", "Roguelike", or "Co-op"?</p>
+          <h3>🔗 Connections</h3>
+          <p>Find 4 groups of 4 games that share a hidden connection. Similar to the NYT Connections game, but with Steam games and store tags.</p>
+          <h2>Features</h2>
+          <p>New daily puzzle every day — same puzzle for everyone. Unlimited random puzzles after you finish the daily. Game trailers, screenshots, and store links for every game. Completely free, no accounts, no ads, no data collection.</p>
+          <p>Please enable JavaScript to play Steam Daily.</p>
+        </article>
+      </noscript>
     </div>
   </main>
 
