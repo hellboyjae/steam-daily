@@ -384,7 +384,7 @@
       <div class="date-line" id="dateLine">Loading...</div>
       <div id="headerButtons" style="display:flex; gap:6px; justify-content:center; margin-bottom:10px;">
         <button id="randomBtn" class="btn btn-ghost" onclick="loadRandomPuzzle()" style="font-size:10px; padding:5px 12px;">🎲 Random Puzzle</button>
-        <button id="backToDaily" class="btn btn-ghost hidden" onclick="loadPuzzle()" style="font-size:10px; padding:5px 12px;">⭐ Back to Daily</button>
+        <button id="backToDaily" class="btn btn-ghost hidden" onclick="loadPuzzle()" style="font-size:10px; padding:5px 12px;">⭐ Daily Puzzle</button>
       </div>
       <nav class="tabs" id="tabs">
         <button class="tab-btn active" data-tab="price">💰 Price Check</button>
@@ -567,7 +567,8 @@
         dateLine.innerHTML = `<span style="color:var(--s-yellow);">⭐ Daily Puzzle</span> #${puzzleData.puzzleNumber} · ${formatDate(puzzleData.date)}`;
       }
       document.getElementById('backToDaily').classList.toggle('hidden', !isRandomMode);
-      document.getElementById('randomBtn').classList.toggle('hidden', isRandomMode);
+      // Always show random button
+      document.getElementById('randomBtn').classList.remove('hidden');
     }
 
     function formatDate(dateStr) {
@@ -973,40 +974,82 @@
     }
 
     // ── Media section for Price Check ──
-    let activeMedia = 'trailer'; // 'trailer' or 'image'
+    let activeMedia = 'trailer';
+    let mediaCache = {}; // appid -> { trailerMp4, trailerWebm, trailerThumb, screenshots }
+    let mediaLoading = false;
+
+    async function fetchGameMedia(appid) {
+      if (mediaCache[appid]) return mediaCache[appid];
+      try {
+        mediaLoading = true;
+        renderPriceCheck();
+        const res = await fetch(`/api/media?appid=${appid}`);
+        const data = await res.json();
+        mediaCache[appid] = data;
+        mediaLoading = false;
+        renderPriceCheck();
+        return data;
+      } catch {
+        mediaLoading = false;
+        return { trailerMp4: null, trailerWebm: null, screenshots: [] };
+      }
+    }
 
     function buildMediaSection(game) {
-      const hasTrailer = game.trailerUrl;
+      const media = mediaCache[game.id];
       const hasImage = game.headerImage;
 
-      if (!hasTrailer && !hasImage) return '';
-
-      // If only one is available, show it directly
-      if (!hasTrailer && hasImage) {
-        return `<img src="${game.headerImage}" alt="${esc(game.name)}" class="game-header-img" loading="lazy">`;
+      // Still loading media from Steam
+      if (!media && !mediaLoading) {
+        fetchGameMedia(game.id);
+        return hasImage ? `<img src="${game.headerImage}" alt="${esc(game.name)}" class="game-header-img" loading="lazy">` : '';
       }
-      if (hasTrailer && !hasImage) {
-        return `<div class="media-section">
-          <video class="game-trailer" controls preload="metadata" poster="${game.headerImage || ''}">
-            <source src="${game.trailerUrl}" type="video/mp4">
-          </video>
+      if (!media && mediaLoading) {
+        return `<div style="text-align:center; padding:20px; color:var(--s-text-dim); font-size:12px;">
+          ${hasImage ? `<img src="${game.headerImage}" alt="${esc(game.name)}" class="game-header-img" loading="lazy">` : ''}
+          <div style="margin-top:6px;">Loading trailer...</div>
         </div>`;
       }
 
-      // Both available — show tabs
-      const trailerActive = activeMedia === 'trailer';
-      return `<div class="media-section">
-        <div class="media-tabs">
-          <button class="media-tab ${trailerActive ? 'active' : ''}" onclick="switchMedia('trailer')">▶ Trailer</button>
-          <button class="media-tab ${!trailerActive ? 'active' : ''}" onclick="switchMedia('image')">🖼 Banner</button>
-        </div>
-        ${trailerActive
-          ? `<video class="game-trailer" controls preload="metadata" poster="${game.headerImage}">
-              <source src="${game.trailerUrl}" type="video/mp4">
-            </video>`
-          : `<img src="${game.headerImage}" alt="${esc(game.name)}" class="game-header-img" style="margin-bottom:0;" loading="lazy">`
-        }
-      </div>`;
+      const hasTrailer = media.trailerMp4 || media.trailerWebm;
+      const hasScreenshots = media.screenshots && media.screenshots.length > 0;
+
+      if (!hasTrailer && !hasScreenshots && hasImage) {
+        return `<img src="${game.headerImage}" alt="${esc(game.name)}" class="game-header-img" loading="lazy">`;
+      }
+
+      // Build tabs
+      const tabs = [];
+      if (hasTrailer) tabs.push({ id: 'trailer', label: '▶ Trailer' });
+      if (hasImage) tabs.push({ id: 'image', label: '🖼 Banner' });
+      if (hasScreenshots) tabs.push({ id: 'screenshots', label: '📸 Screenshots' });
+
+      if (tabs.length === 0) return '';
+      if (!tabs.find(t => t.id === activeMedia)) activeMedia = tabs[0].id;
+
+      let html = `<div class="media-section"><div class="media-tabs">`;
+      tabs.forEach(t => {
+        html += `<button class="media-tab ${activeMedia === t.id ? 'active' : ''}" onclick="switchMedia('${t.id}')">${t.label}</button>`;
+      });
+      html += `</div>`;
+
+      if (activeMedia === 'trailer' && hasTrailer) {
+        html += `<video class="game-trailer" controls preload="metadata" poster="${media.trailerThumb || game.headerImage || ''}">`;
+        if (media.trailerMp4) html += `<source src="${media.trailerMp4}" type="video/mp4">`;
+        if (media.trailerWebm) html += `<source src="${media.trailerWebm}" type="video/webm">`;
+        html += `</video>`;
+      } else if (activeMedia === 'image' && hasImage) {
+        html += `<img src="${game.headerImage}" alt="${esc(game.name)}" class="game-header-img" style="margin-bottom:0;" loading="lazy">`;
+      } else if (activeMedia === 'screenshots' && hasScreenshots) {
+        html += `<div style="display:grid; grid-template-columns:1fr 1fr; gap:4px;">`;
+        media.screenshots.forEach(url => {
+          html += `<img src="${url}" alt="Screenshot" style="width:100%; height:auto; border-radius:2px; border:1px solid var(--s-border);" loading="lazy">`;
+        });
+        html += `</div>`;
+      }
+
+      html += `</div>`;
+      return html;
     }
 
     function switchMedia(type) {
