@@ -36,7 +36,7 @@ module.exports = async (req, res) => {
       trailerWebm: movie ? (movie.webm?.max || movie.webm?.['480'] || null) : null,
       trailerThumb: movie ? (movie.thumbnail || null) : null,
       screenshots: (data.screenshots || []).slice(0, 4).map(s => s.path_full || s.path_thumbnail),
-      debug: movie ? 'has_movie' : 'no_movies_field'
+      debug: movie ? { keys: Object.keys(movie), movie_raw: movie } : 'no_movies_field'
     };
 
     res.setHeader('Cache-Control', 'public, s-maxage=86400, stale-while-revalidate=604800');
