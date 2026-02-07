@@ -119,7 +119,10 @@ async function main() {
         positiveReviews: app.positive, negativeReviews: app.negative,
         releaseDate: store.release_date?.date || null,
         headerImage: store.header_image || null,
-        trailerUrl: store.movies?.[0]?.mp4?.['480'] || null,
+        trailerMp4: store.movies?.[0]?.mp4?.max || store.movies?.[0]?.mp4?.['480'] || null,
+        trailerWebm: store.movies?.[0]?.webm?.max || store.movies?.[0]?.webm?.['480'] || null,
+        trailerThumb: store.movies?.[0]?.thumbnail || null,
+        screenshots: (store.screenshots || []).slice(0, 4).map(s => s.path_full || s.path_thumbnail),
         storeUrl: `https://store.steampowered.com/app/${app.appid}`,
         developers: store.developers || [],
         publishers: store.publishers || [],
@@ -140,7 +143,7 @@ async function main() {
   const viableTags = {};
   const tagIndex = {};
   games.forEach(g => g.tags.forEach(t => { if (!tagIndex[t]) tagIndex[t] = []; tagIndex[t].push(g.id); }));
-  Object.entries(tagIndex).forEach(([t, ids]) => { if (ids.length >= 5 && ids.length <= 100) viableTags[t] = ids; });
+  Object.entries(tagIndex).forEach(([t, ids]) => { if (ids.length >= 5 && ids.length <= 500) viableTags[t] = ids; });
   console.log(`  ${Object.keys(viableTags).length} viable tags\n`);
 
   // ── Step 6: Save ──

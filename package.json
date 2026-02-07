@@ -6,6 +6,7 @@
     "bootstrap": "node scripts/bootstrap-sample.js",
     "build-db": "node scripts/build-database.js",
     "generate": "node scripts/generate-daily.js",
+    "rebuild-tags": "node scripts/rebuild-tags.js",
     "dev": "npx vercel dev",
     "prebuild": "node scripts/pregenerator.js"
   },

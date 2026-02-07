@@ -872,9 +872,19 @@
 
       if (matches.length === 0) { ac.classList.add('hidden'); return; }
 
-      ac.innerHTML = matches.map(g =>
-        `<button class="autocomplete-item" onclick="selectTagGame('${esc(g.name)}')">${esc(g.name)}</button>`
+      ac.innerHTML = matches.map((g, i) =>
+        `<button class="autocomplete-item" data-ac-idx="${i}">${esc(g.name)}</button>`
       ).join('');
+
+      // Event delegation for autocomplete clicks
+      ac.onclick = function(e) {
+        const item = e.target.closest('.autocomplete-item');
+        if (!item) return;
+        const idx = parseInt(item.dataset.acIdx);
+        const match = matches[idx];
+        if (match) selectTagGame(match.name);
+      };
+
       ac.classList.remove('hidden');
     }
 
@@ -956,11 +966,11 @@
       });
 
       if (!allSolved && !gameOver) {
-        html += `<div class="conn-grid" style="${solved.length > 0 ? 'margin-top:4px;' : ''}">`;
-        remaining.forEach(name => {
+        html += `<div class="conn-grid" id="connGrid" style="${solved.length > 0 ? 'margin-top:4px;' : ''}">`;
+        remaining.forEach((name, idx) => {
           const isSel = selected.includes(name);
           const isShake = shaking.includes(name);
-          html += `<button class="conn-tile${isSel ? ' selected' : ''}${isShake ? ' shake' : ''}" onclick="toggleConnTile('${esc(name)}')">${esc(name)}</button>`;
+          html += `<button class="conn-tile${isSel ? ' selected' : ''}${isShake ? ' shake' : ''}" data-game-idx="${idx}">${esc(name)}</button>`;
         });
         html += `</div>
         <div class="flex gap-6 justify-center">
@@ -1001,6 +1011,20 @@
 
       html += `</div>`;
       document.getElementById('connectionsPanel').innerHTML = html;
+
+      // Event delegation for connection tiles
+      const grid = document.getElementById('connGrid');
+      if (grid) {
+        grid.addEventListener('click', function(e) {
+          const tile = e.target.closest('.conn-tile');
+          if (!tile) return;
+          const idx = parseInt(tile.dataset.gameIdx);
+          const puzzle = puzzleData.connections;
+          const remaining = puzzle.shuffledTiles.filter(n => !connState.solved.some(g => g.games.includes(n)));
+          const name = remaining[idx];
+          if (name) toggleConnTile(name);
+        });
+      }
     }
 
     function toggleConnTile(name) {
